@@ -83,10 +83,9 @@ body.dark{
 .intro{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .intro p{
-    text-align: justify;
+    text-align: justify;Thanks for saving me the 
 }
 .image{
     width: 200px;
