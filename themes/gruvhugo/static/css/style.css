@@ -31,7 +31,7 @@ body.dark{
     color: #076678;
 }
 
-p a{
+p a, li a{
     border-right: 0px;
     border-top: 0px;
     border-left: 0px;
