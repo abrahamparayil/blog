@@ -1,4 +1,4 @@
-baseurl = "https://avron.gitlab.io/blog/"
+baseurl = "https://avron.gitlab.io/"
 title = "Abraham Raji"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
