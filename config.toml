@@ -18,6 +18,11 @@ defaultExtension= "html"
 # hugo new command. "toml", "yaml", or "json"
 metaDataFormat= "yaml"
 
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
 [markup]
   defaultMarkdownHandler = "goldmark"
   [markup.blackFriday]
