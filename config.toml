@@ -72,3 +72,28 @@ metaDataFormat= "yaml"
   img = "img/abraham.jpg"
   icon = "img/man.png"
   description= "My name is Abraham Raji. I'm a maker. I design and build solutions to problems that fascinate me. I consider myself a minimalist who believes in sensible and intuitive design that is beautiful both on the outside as well as under the hood."
+
+ # Social icons
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/avron"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:avronr@tuta.io"
+
+  [[params.social]]
+    name = "gpg"
+    url  = "https://keys.openpgp.org/search?q=avronr@tuta.io"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/avron_raji"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/avronr"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/avronr"
