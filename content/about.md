@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2020-06-13T17:13:37+05:30
-author: "false"
 draft: false
 translationKey: about
 slug: about
