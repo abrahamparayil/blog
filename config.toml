@@ -97,3 +97,19 @@ metaDataFormat= "yaml"
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/avronr"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
+
+  [[menu.main]]
+    identifier = "wiki"
+    name       = "Wiki"
+    url        = "none"
