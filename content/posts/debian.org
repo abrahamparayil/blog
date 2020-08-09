@@ -18,3 +18,8 @@ Debian ensures that the software they make doesn't just work well on their own b
 
 
 Overall in my experience Debian provides a great experience for regular users as well as power users without compromising on stability or polish. It has a very open and fair community and stays true to their core values of freedom and justice. That is why I use Debian.
+
+** References
+- [[https://www.debian.org/intro/about][About Debian]]
+- [[https://www.debian.org/social_contract][Debian Social Contract]]
+- [[https://www.debian.org/intro/free][Debian about Free Software]]
