@@ -51,14 +51,6 @@ metaDataFormat= "yaml"
     url  = "https://keys.openpgp.org/search?q=avronr@tuta.io"
 
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/avron_raji"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/avronr"
-
-  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/avronr"
 
