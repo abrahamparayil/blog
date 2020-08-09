@@ -1,4 +1,4 @@
-#+TITLE: "Why Debian?"
+#+TITLE: Why Debian?
 #+date: 2020-08-09T03:27:56+05:30
 #+tags[]: debian free-software gnu/linux
 #+draft: false
