@@ -1,0 +1,11 @@
+#+TITLE: "Why Debian?"
+#+date: 2020-08-09T03:27:56+05:30
+#+tags[]: debian free-software
+#+draft: true
+
+I currently use Debian as my daily driver. I would recommend it to anyone who can appreciate the distribution's maturity. Here are a few reasons why those of you who are considering a new distribution must take a look at Debian.
+
+** Transperancy
+Everything in Debian is transparent, the emails sent between and to developers using on their official mail to, the amount of unresolved bugs, every step taken by debian as an organization, everything! I appreciate that from my distribution. There are no room for underhand corporate deals, no unfair treatment behind private mails and everything can be reviewed by the public. No crazy or weird surprises. You know what they're doing infact you can even let them know what you think as their mailing lists are public and you can sign up for the mailing list and join conversation.
+** Commitment to Free Software
+Debian is one of those few distributions that publicly proclaims their commitment to free software. They care about user freedom and privacy. Unlike most distribution who would rather talk about the pragmatic advantages open source. They even divide their packages into three separate free, non-free and contrib. Free contains only free software, non-free contains proprietary software and firmware and contrib that has software that requires some non-free software to obtain complete functionality. Debian isn't a free software approved because it provides a way for users to install non-free software. Debian wants to provide users a chance to have as much a free computing experience as possible, this is why the none-free archive is maintained. Debian makes it clear that the non-free and contrib archives are not part of the actual distribution.
