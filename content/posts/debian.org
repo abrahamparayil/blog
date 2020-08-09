@@ -1,6 +1,6 @@
 #+TITLE: "Why Debian?"
 #+date: 2020-08-09T03:27:56+05:30
-#+tags[]: debian free-software
+#+tags[]: debian free-software gnu/linux
 #+draft: false
 
 I currently use Debian as my daily driver. I would recommend it to anyone who can appreciate the distribution's maturity. Here are a few reasons why those of you who are considering a new distribution must take a look at Debian.
