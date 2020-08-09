@@ -39,6 +39,14 @@ metaDataFormat= "yaml"
     url  = "mailto:avronr@tuta.io"
 
   [[params.social]]
+    name = "mastodon"
+    url  = "https://aana.site/@avronr"
+
+  [[params.social]]
+    name = "matrix"
+    url  = "https://matrix.to/#/@abraham_raji:matrix.org"
+
+  [[params.social]]
     name = "gpg"
     url  = "https://keys.openpgp.org/search?q=avronr@tuta.io"
 
