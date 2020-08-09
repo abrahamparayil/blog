@@ -1,7 +1,7 @@
 #+TITLE: "GNU/Linux Journey"
 #+date: 2020-08-09T23:38:49+05:30
 #+tags[]: gnu/linux experience distro
-#+draft: true
+#+draft: false
 
 ** The beginning
 I've had my share of distro hoping in the past few years. Like most people I began my journey with Ubuntu on a then quite old laptop. It had a Pentium processor with a 2GB RAM and 128 GB hard drive. Being old it worked surprisingly well with GNU/Linux. Infact the experience was better than what I had with windows which encouraged me to make the switch and I've never looked back. Not saying GNU/Linux never had it's quirks but the overall experience was so satisfying and empowering that I didn't wanna go back to windows. Even when I bought a machine with good hardware I stuck with Tux.
