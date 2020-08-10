@@ -8,3 +8,4 @@ My name is Abraham Raji. I'm a maker. I design and build solutions to problems t
 - Hugo
     - My own Hugo theme : [Gruvhugo](https://gitlab.com/avron/gruvhugo)
 - Basic Web Tech (HTML5, CSS and JS)
+- Deployed using Gitlab Pages
