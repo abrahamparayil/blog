@@ -1,5 +1,4 @@
-![Build Status](https://gitlab.com/pages/hugo/badges/master/build.svg)
-
+[![pipeline status](https://gitlab.com/avron/avron.gitlab.io/badges/master/pipeline.svg)](https://gitlab.com/avron/avron.gitlab.io/-/commits/master)
 ---
 
 Example [Hugo] website using GitLab Pages.
