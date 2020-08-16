@@ -1,4 +1,4 @@
-#+TITLE: "Jared Letos Joker"
+#+TITLE: Jared Letos Joker
 #+date: 2020-08-17T03:56:37+05:30
 #+tags[]: pop-culture DC joker
 
