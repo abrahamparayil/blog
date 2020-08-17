@@ -46,9 +46,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 >     *   Designed and built the front-end of [fsci.in](https://fsci.in).
 
 > *   **Swathanthra Malayalam Computing** :
->     *   Suruma Font:
->     
->     
+>     *   Suruma Font: 
 >     *   Reconfigured the Makefile.
 >     *   Added Documentation
 >     *   Configured the CI Pipeline
