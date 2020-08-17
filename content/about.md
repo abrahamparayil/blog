@@ -45,8 +45,8 @@ JUNE 2017 - PRESENT, KOTTAYAM
 > *   **Free Software Community of India** :
 >     *   Designed and built the front-end of [fsci.in](https://fsci.in).
 
-> *   **Swathanthra Malayalam Computing** :
->     *   Suruma Font: 
+> *   **Swathanthra Malayalam Computing** :\
+>     **Suruma Font:** 
 >     *   Reconfigured the Makefile.
 >     *   Added Documentation
 >     *   Configured the CI Pipeline
