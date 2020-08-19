@@ -1,10 +1,13 @@
-#+TITLE: "Getting to Know Ruby: Day 1
+#+TITLE: Getting to Know Ruby: Day 1
 #+date: 2020-08-20T02:05:33+05:30
 #+tags[]: ruby language web
 
 Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. I never really thought I'd learn Ruby at any point. If you look at the market both Ruby and Rails are declining in use, JS is increasing it's market share on a daily basis, if I wanted a scripting language I had python which to be honest has more users and market share than Ruby. But recently I've really been looking at Web Services and that is when I saw that Ruby and Rails is still used widely for a bunch major players in our industry. Now this sort of caught my attention and I started contributing to projects that was build with rails and it required me to hack in Ruby. One thing about programming languages is that once you get the basics down you could sort of port that knowledge to any language and all you need to worry about is syntax. This was the same for me too. I copy pasted a lot and looked at commits from other contributors.
-By this point I started to listening to ruby talks and saw a few talks by Matsumoto, he is an interesting person. He seems like a really nice guy, you don't get the usual 'Genius Vibe' common with other Language Creators. He says that he created Ruby for developers, that his primary goal is to make their lives easy and more productive and while remaining very performant. He goes on to say that Ruby focuses on productivity and joy of programming. I find that to be sweet. This felt like something different and I decided to get a taste for Ruby firsthand. So I decided to learn Ruby.\
-Ruby like python has a REPL, it's called the Interactive Ruby Shell or IRB. If you've installed Ruby you should be able to open your terminal and run =irb= and the shell.\
+
+By this point I started to listening to ruby talks and saw a few talks by Matsumoto, he is an interesting person. He seems like a really nice guy, you don't get the usual 'Genius Vibe' common with other Language Creators. He says that he created Ruby for developers, that his primary goal is to make their lives easy and more productive and while remaining very performant. He goes on to say that Ruby focuses on productivity and joy of programming. I find that to be sweet. This felt like something different and I decided to get a taste for Ruby firsthand. So I decided to learn Ruby.
+
+Ruby like python has a REPL, it's called the Interactive Ruby Shell or IRB. If you've installed Ruby you should be able to open your terminal and run =irb= and the shell.
+
 ** Printing Hello World
 Well first things first. Lets make Hello World appear on a screen. We do it like so:
 #+begin_src ruby
