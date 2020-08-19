@@ -28,7 +28,7 @@ print sum
 
 This will look something like this in the =irb=
 #+begin_src ruby
- irb(main):003:0> first_number = 1.275
+irb(main):003:0> first_number = 1.275
 => 1.275
 irb(main):004:0> second_number = 2.123
 => 2.123
@@ -40,7 +40,7 @@ irb(main):006:0> print sum
 
 Since everything in ruby is an object you could do something like this:
 #+begin_src ruby
- irb(main):010:0> sum.class
+irb(main):010:0> sum.class
 => Float
 irb(main):011:0> 8.class
 => Integer
@@ -48,4 +48,21 @@ irb(main):012:0> "Hello World".class
 => String
 #+end_src
 ** Arithmetic Operators 
-Ruby supports all the arithmetic operators that you'd expect any modern programming language to support. 
+Ruby supports all the arithmetic operators that you'd expect any modern programming language to support.
+#+begin_src ruby
+irb(main):013:0> 3+2
+=> 5
+irb(main):014:0> 3-2
+=> 1
+irb(main):015:0> 3*2
+=> 6
+irb(main):016:0> 3/2
+=> 1
+irb(main):017:0> 3%2
+=> 1
+#+end_src
+Now you may look at this and wonder how 3/2 is equal to 1? This is because both 3 and 2 here are integers and so ruby performs integer division on them. You can get decimal point answers by adding a .0 at the end of the numbers.
+#+begin_src ruby
+ irb(main):019:0> 3.0/2
+=> 1.5
+#+end_src
