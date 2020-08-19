@@ -5,6 +5,7 @@
 Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. I never really thought I'd learn Ruby at any point. If you look at the market both Ruby and Rails are declining in use, JS is increasing it's market share on a daily basis, if I wanted a scripting language I had python which to be honest has more users and market share than Ruby. But recently I've really been looking at Web Services and that is when I saw that Ruby and Rails is still used widely for a bunch major players in our industry. Now this sort of caught my attention and I started contributing to projects that was build with rails and it required me to hack in Ruby. One thing about programming languages is that once you get the basics down you could sort of port that knowledge to any language and all you need to worry about is syntax. This was the same for me too. I copy pasted a lot and looked at commits from other contributors.
 By this point I started to listening to ruby talks and saw a few talks by Matsumoto, he is an interesting person. He seems like a really nice guy, you don't get the usual 'Genius Vibe' common with other Language Creators. He says that he created Ruby for developers, that his primary goal is to make their lives easy and more productive and while remaining very performant. He goes on to say that Ruby focuses on productivity and joy of programming. I find that to be sweet. This felt like something different and I decided to get a taste for Ruby firsthand. So I decided to learn Ruby.\
 Ruby like python has a REPL, it's called the Interactive Ruby Shell or IRB. If you've installed Ruby you should be able to open your terminal and run =irb= and the shell.\
+** Printing Hello World
 Well first things first. Lets make Hello World appear on a screen. We do it like so:
 #+begin_src ruby
 print "Hello World" 
@@ -14,4 +15,37 @@ Another way to do this would be:
 puts "Hello World" 
 #+end_src
 
-Well what's the difference between the two? If you entered these commands in the irb you'd see that put prints the statement and goes to the next line while print does not enter a new line once it has printed Hello World
+Well what's the difference between the two? If you entered these commands in the irb you'd see that put prints the statement and goes to the next line while print does not enter a new line once it has printed Hello World.
+
+** Variables
+You can declare variables like so:
+#+begin_src ruby
+first_number = 1.275
+second_number = 2.123
+sum = first_number + second_number
+print sum
+#+end_src
+
+This will look something like this in the =irb=
+#+begin_src ruby
+ irb(main):003:0> first_number = 1.275
+=> 1.275
+irb(main):004:0> second_number = 2.123
+=> 2.123
+irb(main):005:0> sum = first_number + second_number
+=> 3.398
+irb(main):006:0> print sum
+3.398=> nil
+#+end_src
+
+Since everything in ruby is an object you could do something like this:
+#+begin_src ruby
+ irb(main):010:0> sum.class
+=> Float
+irb(main):011:0> 8.class
+=> Integer
+irb(main):012:0> "Hello World".class
+=> String
+#+end_src
+** Arithmetic Operators 
+Ruby supports all the arithmetic operators that you'd expect any modern programming language to support. 
