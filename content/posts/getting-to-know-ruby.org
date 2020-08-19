@@ -63,6 +63,22 @@ irb(main):017:0> 3%2
 #+end_src
 Now you may look at this and wonder how 3/2 is equal to 1? This is because both 3 and 2 here are integers and so ruby performs integer division on them. You can get decimal point answers by adding a .0 at the end of the numbers.
 #+begin_src ruby
- irb(main):019:0> 3.0/2
+irb(main):019:0> 3.0/2
 => 1.5
 #+end_src
+
+Another thing here is like most programming languages Ruby also struggles in floating point calculation beyond a certain a range for example:
+#+begin_src ruby
+irb(main):025:0> 1.98765432109876+0.000000000000565
+=> 1.9876543210993252
+#+end_src
+** User input
+Finally we can get user input through the =gets= command:
+#+begin_src ruby
+irb(main):026:0> new_number= gets.to_i
+1254
+=> 1254
+#+end_src
+Here the =gets.to_i= takes the input which is in string format and converts it into an integer.
+
+That was Day 1 I guess. I didn't really jump to deep here just tried to go through some basic stuff, like things enough to make a small calculator. I felt there was no need to overdo it and force myself to be learn ruby in 3 days. I guess I'm savoring the experience of learning a new language.
