@@ -1,5 +1,5 @@
-#+TITLE: Getting to Know Ruby: Day 1
-#+date: 2020-08-20T02:05:33+05:30
+#+TITLE: Getting to Know Ruby: Day 2
+#+date: 2020-08-21T01:55:33+05:30
 #+tags[]: ruby language web
 
 Day 2 here we go!
