@@ -1,0 +1,38 @@
+#+TITLE: Getting to Know Ruby: Day 1
+#+date: 2020-08-20T02:05:33+05:30
+#+tags[]: ruby language web
+
+Day 2 here we go!
+
+** Constants
+Constants in ruby begin with a capital or upper case letter. Unlike some programming languages ruby allows users to change constants after declaration except it will give you a warning for it.
+#+begin_src ruby
+ irb(main):001:0> Constant = 78.1
+=> 78.1
+irb(main):002:0> Constant = 54.9
+(irb):2: warning: already initialized constant Constant
+(irb):1: warning: previous definition of Constant was here
+=> 54.9
+irb(main):003:0> puts Constant
+54.9
+=> nil
+#+end_src
+Here as you can see Ruby gave us a warning when we tried to change the constant 'Constant' but let us change it nonetheless.
+** File Operations
+In ruby we do file operations using the File object. Consider the following code:
+#+begin_src ruby
+irb(main):001:0> file_writer = File.new("helloworld.org", "w")
+=> #<File:helloworld.org>
+irb(main):002:0> file_writer.puts("* Hello World").to_s
+=> ""
+irb(main):003:0> file_writer.close
+=> nil
+#+end_src
+
+Here in the first line we're opening a file =hellowworld.org= using the =File= object and ="w"= parameter tells ruby that we want to write to it. Next we use =puts= to put things into the file, here which is =* Hello World=, only after converting it into a string of course using =.to_s=. After we're done writing into the file we close the file using =writer.close=
+
+Now let's read from that file. To do that we can use =File.read=.
+#+begin_src ruby
+irb(main):004:0> file_reader = File.read("helloworld.org")
+=> "* Hello World\n"
+#+end_src
