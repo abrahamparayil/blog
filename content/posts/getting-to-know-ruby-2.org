@@ -36,3 +36,16 @@ Now let's read from that file. To do that we can use =File.read=.
 irb(main):004:0> file_reader = File.read("helloworld.org")
 => "* Hello World\n"
 #+end_src
+** Comments
+Commenting in ruby is pretty straight forward and honestly in all the languages I've seen my most favorite yet. Single line comments is done by beginning the line with a =#= which is nothing special, it's milti-line comments that really caught my eye, you begin a multi-line comment with =begin and end it with =end. I don't know something about this feels very natural to me. I like it very much.
+ #+begin_src ruby
+# this is a single line comment
+=begin
+this
+is a
+multi-line
+comment
+=end
+ #+end_src
+
+ This have been pretty straight forward up until now. Tomorrow I'll probably get started with conditionals. I still have a lot to cover but I'm getting there. After conditionals I might go to loops, all of them. At some point I will have to look into OOP with Ruby, that is going to be one long post maybe I'll break it into smaller posts. Maybe this might be the last post I make about Ruby. Who knows what the future holds.
