@@ -38,7 +38,7 @@ irb(main):005:0> not true
 irb(main):006:0> !true
 => false
  #+end_src
-We also have the following comparative operators: = == != < > <= >= =
+We also have the following comparative operators: == != < > <= >=
 Those also do what you'd expect them to do. You could see them in action when we finally get to conditionals in the next section.
 ** Conditionals
 Let's say we have a variable called =version= and wish to print out stuff based on the value of =version=, then this is how we would do it.
