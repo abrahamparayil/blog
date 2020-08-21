@@ -79,9 +79,10 @@ else
 end
 #+end_src
 And executing that will give us this. By the way you can make ruby scripts by putting .rb at the end of the filename and as you can see you can run scripts by providing the filename as a parameter to the =ruby= command.
-#+begin_src 
+#+begin_src sh 
 ❯ ruby deb.rb
 Enter your Debian version
 9
 You are good for now.
 #+end_src
+There are more fun things that we could do with these little words, but it's late here and I'm gonna probaby do that on Day 4.
