@@ -1,6 +1,6 @@
 #+TITLE: Getting to Know Ruby: Day 2
 #+date: 2020-08-21T02:02:20+05:30
-#+tags[]: ruby language web
+#+tags[]: ruby basics file-operations comments
 
 Day 2 here we go!
 
