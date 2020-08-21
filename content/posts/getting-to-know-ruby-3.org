@@ -1,0 +1,87 @@
+#+TITLE: Getting to Know Ruby 3
+#+date: 2020-08-22T00:59:07+05:30
+#+tags[]: ruby basics conditionals comparison
+
+Alright time for some conditionals! But before that we need to get a few things down.
+** true,false and nil
+=true=, =false= and =nil=  are like everything else in ruby are objects that have their own classes in which they are the only objects. =true= and =false= are both native boolean values. You could set it to variables, use it for methods and what not. 
+#+begin_src 
+irb(main):001:0> true.class
+=> TrueClass
+irb(main):002:0> false.class
+=> FalseClass
+irb(main):003:0> bool = true
+=> true
+#+end_src
+=nil= is something different altogether. Nothing is a weird thing in programming and different thing has different programming languages. =nil= is not zero, zero is a value, it is something but =nil= is nothing like the absence of anything. 
+#+begin_src ruby
+irb(main):001:0> nil.class
+=> NilClass
+irb(main):002:0> 0.nil?
+=> false
+irb(main):003:0> nil.nil?
+=> true
+#+end_src
+** Comparative and Logical operators
+Ruby has the following logical operators: =&& || != . You could also use the words =and or not= and they do what you think they'd do.
+ #+begin_src ruby
+irb(main):001:0> true && false
+=> false
+irb(main):002:0> true and true
+=> true
+irb(main):003:0> true || false
+=> true
+irb(main):004:0> true or false
+=> true
+irb(main):005:0> not true
+=> false
+irb(main):006:0> !true
+=> false
+ #+end_src
+We also have the following comparative operators: =\=\= !\= < > <\= >\= =
+Those also do what you'd expect them to do. You could see them in action when we finally get to conditionals in the next section.
+** Conditionals
+Let's say we have a variable called =version= and wish to print out stuff based on the value of =version=, then this is how we would do it.
+
+#+begin_src ruby
+puts "Enter your Debian version"
+version = gets.to_i
+
+if (version < 9)
+  puts "Upgrade Debian!"
+elsif (version == 9)
+  puts "You are using Old-Stable. You should consider upgrading."
+elsif (version == 10)
+  puts "You are using the latest version of Debian!"
+elsif (version == 11)
+  puts "You are using Testing"
+else
+  puts "Enter a version number!"
+end
+#+end_src
+Now if you run that it'll look something like this:
+#+begin_src
+Enter your Debian version
+9
+You are using Old-Stable. You should consider upgrading.
+#+end_quote
+Now what if want to check for multiple conditions? 
+#+begin_src ruby
+puts "Enter your Debian version"
+version = gets.to_i
+
+if (version < 9)
+  puts "Upgrade Debian!"
+elsif (version >= 9) && (version < 12)
+  puts "You are good for now."
+else
+  puts "Enter a version number!"
+end
+#+end_src
+And executing that will give us this. By the way you can make ruby scripts by putting .rb at the end of the filename and as you can see you can run scripts by providing the filename as a parameter to the =ruby= command.
+#+begin_src 
+❯ ruby deb.rb
+Enter your Debian version
+9
+You are good for now.
+#+end_src
