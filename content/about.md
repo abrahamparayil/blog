@@ -43,7 +43,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 >     *   Event Organizer: Organizing Community events.
 
 > *   **Free Software Community of India** :
->     *   Designed and built the front-end of [fsci.in](https://fsci.in).
+>     *   Designed, built and maintains [fsci.in](https://fsci.in).
 
 > *   **Swathanthra Malayalam Computing** :\
 >     **Suruma Font:** 
