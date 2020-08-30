@@ -1,4 +1,4 @@
-image: "debian:unstable"
+image: "debian:stable"
 
 before_script:
   - apt-get update -y
@@ -22,29 +22,4 @@ build-branch:
     - rm -rf ../content && cp -r themes/gruvhugo/exampleSite/content/ . 
     - rm config.toml && cp themes/gruvhugo/exampleSite/deploy.toml ./config.toml 
     - hugo
-    
-build-tag:
-  stage: build
-  script:
-    - make ttf webfonts
-    - sh tools/artifacts.sh
-  artifacts:
-    paths:
-    - build/
-  only:
-    - tags
-
-test:
-  stage: test
-  before_script:
-    - apt-get update -y
-    - apt-get install -y make libharfbuzz-bin
-  script:
-    - make test
-
-
-release:
-  stage: release
-  trigger: smc/smc.org.in
-  only:
-    - tags
+    - echo "Build on Debian Stable successfull!"
