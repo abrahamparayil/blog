@@ -27,6 +27,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 
 ## Personal Projects
 
+*   [Gruchugo](https://gitlab.com/avron/gruvhugo): A Minimalist Hugo Theme based on the [Pavel Pertsev](https://github.com/morhetz/).
 *   [Armacs](https://github.com/avronr/armacs/): An elisp based distribution of GNU/Emacs.
 *   [St](https://github.com/avronr/st): My build of simple terminal a *nix terminal emulator with added features.
 *   [Gruvarc GTK Theme](https://gitlab.com/avron/gruvarc-gtk-theme):A GTK theme based on the [Gruvbox](https://github.com/morhetz/gruvbox) color scheme.
