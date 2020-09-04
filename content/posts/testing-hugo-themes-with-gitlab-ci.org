@@ -1,6 +1,176 @@
 #+TITLE: "Testing Hugo Themes With Gitlab CI/CD"
 #+date: 2020-09-04T05:31:17+05:30
 #+tags[]: gitlab ci cd
-#+hugo_draft: true
 
 I use Gitlab. This blog is built with and deployed using Gitlab. I like Gitlab
+
+#+begin_src yml
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  DEBIAN_FRONTEND: noninteractive
+
+stages:
+  - build
+  - test
+  - pages
+
+debian-test:
+  stage: build
+  image: "debian:testing"
+  before_script:
+    - apt update -y
+    - apt install -y git hugo neofetch
+  script:
+    - neofetch
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - cp ../theme.toml themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - echo "Build on Debian Testing successfull!"
+
+ubuntu-test:
+  stage: build
+  image: "ubuntu:latest"
+  before_script:
+    - apt update -y
+    - apt install -y tzdata git hugo neofetch
+  script:
+    - neofetch
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - cp ../theme.toml themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - echo "Build on Ubuntu successfull!"
+
+
+archlinux-test:
+  stage: build
+  image: "archlinux:latest"
+  before_script:
+    - pacman -Syu --noconfirm
+    - pacman -S --noconfirm git hugo neofetch
+  script:
+    - neofetch
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - cp ../theme.toml themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - echo "Build on Archlinux Latest successfull!"
+
+fedora-test:
+  stage: build
+  image: "fedora:latest"
+  before_script:
+    - dnf install -y git hugo neofetch
+  script:
+    - neofetch
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - cp ../theme.toml themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - echo "Build on Fedora successfull!"
+
+fedora-rawhide-test:
+  stage: build
+  image: "fedora:rawhide"
+  before_script:
+    - dnf install -y git hugo neofetch
+  script:
+    - neofetch
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - cp ../theme.toml themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - echo "Build on Fedora Rawhide successfull!"
+
+test:
+  stage: test
+  image: registry.gitlab.com/pages/hugo:latest
+  script:
+    - hugo
+  except:
+    - master
+
+pages:
+  stage: pages
+  image: registry.gitlab.com/pages/hugo:latest
+  script:
+    - hugo new site test && cd test
+    - mkdir themes/arwiki
+    - apk update
+    - apk upgrade
+    - apk add git
+    - cp -r ../archetypes themes/arwiki
+    - cp -r ../data themes/arwiki
+    - cp -r ../i18n themes/arwiki
+    - cp -r ../layouts themes/arwiki
+    - cp ../local_git_config.sh themes/arwiki
+    - cp -r ../static themes/arwiki
+    - cp -r ../assets themes/arwiki
+    - cp -r ../exampleSite themes/arwiki
+    - cp -r ../images themes/arwiki
+    - rm -rf ../content && cp -r themes/arwiki/exampleSite/content/ .
+    - rm config.toml && cp themes/arwiki/exampleSite/deploy.yaml ./config.yaml
+    - hugo
+    - mv public ../
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+#+end_src
