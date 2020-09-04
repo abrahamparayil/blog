@@ -1,6 +1,7 @@
-#+TITLE: "Testing Hugo Themes With Gitlab CI/CD"
+#+TITLE: Testing Hugo Themes With Gitlab CI/CD
 #+date: 2020-09-04T05:31:17+05:30
 #+tags[]: gitlab ci cd
+#+hugo_draft: true
 
 I use Gitlab. This blog is built with and deployed using Gitlab. I like Gitlab
 
