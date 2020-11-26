@@ -1,7 +1,7 @@
 #+TITLE: An Abundance of Katherines
 #+date: 2020-11-16T06:46:13+05:30
 #+tags[]: books
-#+draft: true
+#+draft: false
 
 My first encounter with John Green was through [[https://www.youtube.com/user/crashcourse][Crash Course]] a youtube channel
 that puts out really well made educational videos on various subjects from
