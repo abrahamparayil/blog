@@ -55,8 +55,8 @@ feature is comparable to you becoming nothing more than a cattle. It is however,
 true that cattle tend to have a convenient life. Those who never move will
 never notice their chains.
 
-* Forward. Some things to think about.
-* Tip of an iceberg.
+* Addendum
+** Tip of an iceberg.
 Every government is only is only a few signatures away from getting access to
 your private thoughts that you've noted down in your computer or anything about
 yourself that you'd like to keep to yourself. Every large corporation is only
@@ -68,7 +68,7 @@ imagine an authoritarian/totalitarian government in a lot of countries the way
 the political landscape is today. Imagine the power such a government would have
 over it's citizens. This has never been possible before in the entire human
 history.
-* Enter Machines.
+** Enter Machines.
 Mothers are special people. They know how you feel from the way you sound over a
 phone call. Well they've been seeing you almost constantly from your birth. They
 also use this incredible amount of information to tell you exactly the right to
