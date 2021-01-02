@@ -25,6 +25,7 @@ metaDataFormat= "yaml"
 
 [params.main]
   enabled = true
+  enableKatex= false
   img = "img/abraham.jpg"
   icon = "img/man.png"
   quote = "Mea navis aëricumbens anguillis abundant."
