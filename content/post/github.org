@@ -1,0 +1,107 @@
+#+TITLE: No Karen, not everything needs to be on GitHub
+#+date: 2021-01-21T09:38:21+05:30
+#+tags[]: github git tools
+
+This blog might trigger some people. But somebody out there needs to hear
+it, so here it is. Why don't projects like the linux kernel and GNU/Emacs use
+GitHub for development? Isn't it more convenient that whatever they're using?
+Around 2018 I stopped using GitHub for software development for the same reasons
+those people are not ready to move to GitHub. Since then I've been using GitLab
+primarily. But ever since registration forms of various hackathons and
+conferences stopped asking for a link to a place where my projects are hosted
+and instead started asking for a GitHub username I started to mirror my repos
+from GitLab to GitHub. So I don't necessarily use GitHub for development but I
+still use it as a mirror for my repos in GitLab.
+
+In this post I will try to explain why I moved away from GitHub and why the
+'just move to GitHub' fad is kind of unreasonable.
+
+** Why I moved away from GitHub
+*** GitHub is mostly proprietary.
+It's a shame that most of the Open Source Code that claims to protect people's
+privacy and freedom, is hosted on proprietary platform. Especially when there
+are so many alternatives out there.
+*** GitHub breaks compatibility with Git.
+GitHub's pull request is not a native feature of Git the version control tool.
+PRs only works on GitHub, so any workflow around PRs will only work if you use
+GitHub. They are essentially extending git in their platform in a way that
+it breaks compatibility with git itself. In comparison GitLab's merge requests
+and branch based workflow is a better implementation.
+To quote Linus himself:
+#+begin_quote
+Git comes with a nice pull-request generation module, but GitHub instead
+decided to replace it with their own totally inferior version. As a result,
+I consider GitHub useless for these kinds of things. It's fine for hosting, but
+the pull requests and the online commit editing, are just pure garbage
+#+end_quote
+Feel free to read his other comments regarding GitHub and watch him roast
+people in the typical Torvalds way [[https://github.com/torvalds/linux/pull/17#issuecomment-5654674][here]].
+*** GitHub is centralized
+GitHub does not let their users self host the platform. The safest place for
+your data is your own hands if anyone dearly holds on to your data for no
+apparent reason (especially when it's a free service) you shouldn't trust them.
+      But the fact that GitHub is owned by Open Source's greatest ally and privacy
+champion Microsoft is somewhat a relief.
+#+begin_quote
+GitHub was so bad for free software, all along, that I could imagine
+Microsoft's making it less bad, or making it more bad. We should ff
+judge by what actually happens, not by prejudice.
+
+Keep in mind that Apple is much worse than Microsoft.
+-- Richard Mathew Stallman
+#+end_quote
+*** I didn't want to be part of the network effect.
+I didn't want to be part of the problem. GitHub's becoming more and more of
+monopoly. "Get on GitHub because everyone else is already there" is pretty much
+the slogan out there right now. People haven't yet realized how harmful
+monopolies are and by the time they do, it will be too late. I also didn't like
+the whole trend of filling the green boxes. Hackathon and conference organizers
+has also started selecting participants based on the number of contributions. I
+find this to be a bad trend that will prove to be harmful to the tech community
+      in the long run.
+** What else is there?
+*** Many drop in replacements.
+GitLab Community edition is a popular choice among various free software
+projects. It's got everything GitHub has and more. Then there's Gitea which is
+more lightweight and clean. There's more and they're not that hard to find
+either so I'm not gonna spend a lot of time here.
+*** Good Old Email
+Now this might sound complicated but hear me out. Suppose Me and a couple of
+friends start a free software project and host it on a simple git server where
+you can browse the code or clone it. For communication I setup two mailing lists
+for issues and community contributions. You a user of our project could view the
+code through the git server, if you have a bug to report you could simply send a
+mail to the issues mailing list and all the discussions regarding that issue
+will happen under that thread. Rather if you have a bug-fix you could simply
+make your changes locally create a diff file using git, sign the patch and
+send it the community contributions mailing list and again all discussions
+related to that contribution will happen in that mail thread. If your
+patch satisfies the maintainers requirement they simply have to download your
+patch and merge it into the master branch. As simple as that.
+
+So how is this better?
+1. I get to host the code and everything related to the project where I want.
+2. Nobody has to sign up anywhere.
+3. Unlike GitHub no dead fork or weird hacks to resolve merge conflicts at the
+   end of the day.
+4. Definitely fewer clicks to make a contribution than GitHub or even GitLab for
+   that matter.
+5. You can do everything from your text editor/IDE and mail client.
+6. No need to run proprietary JS.
+7. It's dead simple and will work universally where as workflows involving GitHub
+   (Pull Requests) does not translate to other platforms.
+
+   This is actually how the linux kernel is being developed. Git servers and
+   mailing lists.
+** Conclusion
+The major reason why people use GitHub seems to be because it is becoming more
+and more a kind of social media platform like Facebook where the likes, comments,
+shares etc. are replaced by stars, green boxes, forks etc. I don't think that is
+particularly healthy. For the reasons in the first sections of this page and since
+(as the second section suggests) there are many alternatives that does pretty
+much the exact same thing GitHub does, it isn't that compelling to choose GitHub
+over others if you don't care about the social media aspect of GitHub. People
+like Linus and the developers of Emacs definitely don't care about bragging
+about their green boxes or the number of stars their project has to their peers
+so it only makes sense that they don't see the value in GitHub. People need to
+understand this and in my opinion maybe adopt the same attitude as them.
