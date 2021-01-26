@@ -30,7 +30,7 @@ metaDataFormat= "yaml"
   icon = "img/man.png"
   quote = "Mea navis aëricumbens anguillis abundant."
   description= "My name is Abraham Raji. I'm a maker. I design and build solutions to problems that fascinate me. I consider myself a minimalist who believes in sensible and intuitive design that is beautiful both on the outside as well as under the hood."
-
+  licenseUrl = "https://gitlab.com/avron/avron.gitlab.io/-/raw/master/LICENSE"
  # Social icons
   [[params.social]]
     name = "gitlab"
