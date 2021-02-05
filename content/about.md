@@ -38,15 +38,23 @@ JUNE 2017 - PRESENT, KOTTAYAM
 
 ## Experience
 
-> *   **Debian** :
+> *   **[Debian](https://debian.org/)** :
 >     *   Helps Debian JS and Ruby teams package and update software in the debian repositories.
+>     *   Lead Designer: MiniDebConf India 2021
 >     *   Designer: Designes several graphic assets for the Debian Community
 >     *   Event Organizer: Organizing Community events.
 
-> *   **Free Software Community of India** :
+> *   **[Sumedha Academy](https://sumedha.org.in)** :
+>     *   Led a team that developed a remote education app for the institution.
+>     *   Was the UI/UX architect for the app.
+
+> *   **District Administration of Idukki, Kerala** :
+>     *   UI/UX Designer, Hello Munnar app.
+
+> *   **[Free Software Community of India](https://fsci.in)** :
 >     *   Designed, built and maintains [fsci.in](https://fsci.in).
 
-> *   **Swathanthra Malayalam Computing** :\
+> *   **[Swathanthra Malayalam Computing](https://smc.org.in/)** :\
 >     **Suruma Font:** 
 >     *   Reconfigured the Makefile.
 >     *   Added Documentation
@@ -68,7 +76,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 > *   **NASA Space Apps Challenge**:
 >     *   Event Organizer: Organized the state level Qualifier for the National level hackathon in 2019\. Was awarded the “Stellar Lead” of 2019.
 
-> *   **Student Developer Society**:
+> *   **[Student Developer Society](https://studevsoc.in)**:
 >     *   Event Organizer : Help organize meet-ups and developer conferences.
 >     *   Web Developer : Helps maintain the official website.
 >     *   Graphics Designer : Makes graphics assets for the community.

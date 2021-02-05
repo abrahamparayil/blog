@@ -1,6 +1,7 @@
 #+TITLE: No Karen, not everything needs to be on GitHub
 #+date: 2021-01-21T09:38:21+05:30
 #+tags[]: github git tools
+#+HUGO_HEADER : slug: github
 
 This blog might trigger some people. But somebody out there needs to hear
 it, so here it is. Why don't projects like the linux kernel and GNU/Emacs use
