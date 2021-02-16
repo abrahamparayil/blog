@@ -7,7 +7,7 @@ slug: about
 ---
 My name is Abraham Raji. I'm a maker. I design and build solutions to problems that fascinate me. I consider myself a minimalist who believes in sensible and intuitive design that is beautiful both on the outside as well as under the hood.
 
-Free/Libre Software Enthusiast. Privacy Advocate. Open Design Advocate. An advocate of "Be excellent to everyone you see". Hardware Enthusiast. Debian Contributor. Mozillian. Vector Designer.
+Free/Libre Software Enthusiast. Privacy Advocate. Open Design Advocate. An advocate of "Be excellent to everyone you see". Product Designer (UI/UX). Software Developer. Hardware Enthusiast. Debian Contributor. Emacs User.
 
 ## Skills
 
@@ -76,7 +76,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 > *   **NASA Space Apps Challenge**:
 >     *   Event Organizer: Organized the state level Qualifier for the National level hackathon in 2019\. Was awarded the “Stellar Lead” of 2019.
 
-> *   **[Student Developer Society](https://studevsoc.in)**:
+> *   **[Student Developer Society](https://studevsoc.com)**:
 >     *   Event Organizer : Help organize meet-ups and developer conferences.
 >     *   Web Developer : Helps maintain the official website.
 >     *   Graphics Designer : Makes graphics assets for the community.
