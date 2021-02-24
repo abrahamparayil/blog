@@ -1,0 +1,83 @@
+#+TITLE: A late blog post about MiniDebConf India 2021
+#+date: 2021-02-24T18:28:50+05:30
+#+tags[]: debian community
+#+draft: false
+
+This started out as a thought after the DebConf 2020 which was the first online
+DebConf. It's been a while since the last MiniDebConf in India. We had conducted
+'Debutsavs' during this time which were more informal in nature. The Debian
+India team (me included) definitely wanted another MiniDebConf in India
+soon as the wait was already long enough. Things being online sort of helped ease
+the process of organizing the event. We had a wonderful and diverse team who
+were nothing short of joy to work with. I was responsible for all tasks related
+to design and with valuable inputs from rest of the organizing
+team I believe I was able to fulfill my duties.
+
+* My Contributions
+** The Logo
+When it was time to get started on the logo I wanted to get some fresh
+perspectives. I wanted to do something new, so I got in touch with a fellow
+designer and friend [[https://www.linkedin.com/in/radhika-sharma23/][Radhika Sharma]] who is also a FOSS Designer and we worked
+together on the early drafts of the logo. She is a talented designer and her
+inputs helped me find the direction I wanted to take with the logo. I made
+multiple drafts which included a few which were suggestions from the team and
+few experiments from my side. The one that got selected in the end was this
+simple but elegant beauty:
+
+#+attr_html: :alt mdoco-in2021 logo :align center :class img :width 99%
+[[https://in2021.mini.debconf.org/media/pages_files/MiniDebConf_India_2021_Logo_B7CsweZ.png]]
+
+** The CFP posters
+I got a little busy with my academics and everything for a while and CFP posters
+were realeased a bit late. I felt very guilty about not being on time. I
+probably would've blamed myself to misery if we didn't have enough proposals at
+the end. But luckily towards the end the proposals started flying in and we had
+more than enough proposals in the end. Yay \o/!
+
+Oh and yeah the posters were available in 2 regional languages apart from
+English.
+#+attr_html: :alt  :align left :class img :width 50%
+[[https://gitlab.com/avron/mdcoin2021-assets/-/raw/master/cfp/cpfen.png][]]
+
+#+attr_html: :alt  :align left :class img :width 50%
+[[https://gitlab.com/avron/mdcoin2021-assets/-/raw/master/cfp/cpfmal.png][]]
+
+#+attr_html: :alt  :align center :class img :width 50%
+[[https://gitlab.com/avron/mdcoin2021-assets/-/raw/master/cfp/cpfhin.png][]]
+** Tshirts
+And finally the t-shirts! No conference is complete without a t-shirt to
+remember it by. I wanted to incorporate our cultural diversity into the design
+without making it too cliche. I hope I was able to convey the diversity of our
+country through this design. I want give a shout-out to Anupa the main organizer
+of the MDCO and the rest of the team without whose valuable suggestions and
+ideas this t-shirt design wouldn't be the way it is today.
+
+#+attr_html: :alt  :align left :class img :width 100%
+[[https://gitlab.com/avron/mdcoin2021-assets/-/raw/master/tshirt/tshirt.png][]]
+
+
+The source files for all design assets related to MiniDebConf Indian 2021 can be
+found [[https://gitlab.com/avron/mdcoin2021-assets][here]].
+* Two talks and two BoFs
+Apart from working as a designer for the conference I was also a speaker and
+organized to BoFs.
+** Talks
+I had two talks, one was about my journey as a designer who
+uses FOSS tools primarily for his work which was in English
+and the second was an introduction to Debian in Malayalam.
+I will update this post with links to the talk videos once they're released.
+** BoFs
+I also organized two BoFs about two things that were really close to my
+heart. FOSS Clubs and GNU Emacs. Special thanks all my co-organizers namely
+Jayaraj J (NSSCE), Bhadra Jayakumar (NSSCE), Dharwish Raj (FISAT), Sreeram
+Venkitesh (MACE) and Subin Siby (VAST) for the FOSS Clubs BoF and Pirate Bady
+and Gokul Das B for the Emacs BoF.
+(Again, will update video links here once they're released).
+* In Conclusion
+Overall this was a great experience for me. I'm definitely looking forward to
+more events such as this. There was a joke during the after party that it
+was about time someone formed an Arch Linux Community in India :p. Debian Bullseye
+release party is the next big event on Debian India community's map. Hopefully
+we'll be able to do multiple release parties like we did for Buster.
+
+Lots to look forward to. :)
