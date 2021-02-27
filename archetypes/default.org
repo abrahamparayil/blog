@@ -1,4 +1,4 @@
-#+TITLE: "{{ replace .Name "-" " " | title }}"
-#+date: {{ .Date }}
-#+tags[]: tag
-#+draft: true
+#+TITLE: {{ replace .Name "-" " " | title }}
+#+DATE: {{ .Date }}
+#+TAGS[]: tag
+#+DRAFT: true
