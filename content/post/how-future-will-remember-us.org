@@ -1,7 +1,7 @@
 #+TITLE: How the Future will remember Us
 #+date: 2021-02-27T20:33:06+05:30
 #+tags[]: thoughts future
-#+draft: true
+#+draft: false
 
 * Back in the good old days
 This is a phrase that we hear a lot from old timers. **Most** of the
