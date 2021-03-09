@@ -49,7 +49,7 @@ JUNE 2017 - PRESENT, KOTTAYAM
 >     *   Was the UI/UX architect for the app.
 
 > *   **District Administration of Idukki, Kerala** :
->     *   UI/UX Designer, Hello Munnar app.
+>     *   UI/UX Designer, Hello Munnar PWA, https://hellomunnar.in/.
 
 > *   **[Free Software Community of India](https://fsci.in)** :
 >     *   Designed, built and maintains [fsci.in](https://fsci.in).
@@ -63,6 +63,8 @@ JUNE 2017 - PRESENT, KOTTAYAM
 > *   **Mozilla Kerala** :
 >     *   Web Developer : Developed Website for Openhack 2019.
 >     *   Web Designer : Helped Design the website for Openhack 2019.
+>     *   Collaborated with the design team to effectively implement the style guide throughout the website.
+>     *   The website recieved praise from various professionals, mentors and participants who attended Openhack.
 
 > *   **KDE** :
 >     *   Software Localization : Contributed to the localization of KDE Desktop enviromment to Malayalam.
@@ -74,15 +76,24 @@ JUNE 2017 - PRESENT, KOTTAYAM
 >     *   Web Developer : Helped them set-up a website-site for their filter (that does not require electricity) during Kerala Floods 2018\. The filters where distributed free of cost through thr proceding from donations made by kind humans. The website helped in explaining what the product was and showed the donations recieved on the website.
 
 > *   **NASA Space Apps Challenge**:
->     *   Event Organizer: Organized the state level Qualifier for the National level hackathon in 2019\. Was awarded the “Stellar Lead” of 2019.
+>     * Event Organizer: Was the state level event coordinator for the NASA Space Apps Challenge held in the state of Kerala, India.
+>     * First state level coordinator who was a student.
+>     * Collaborated directly with the Space Apps National Level Organizers for India.
+>     * Initiated and hosted the event, turned out to be the huge success.
+>     * Received Stellar Lead award from National Organizing Team 
 
 > *   **[Student Developer Society](https://studevsoc.com)**:
+>     *   Maintains and leads a growing community of students and professionals wanting to explore uncharted territories.
+>     *   Works to make software development more accessible to students from all sectors of the society.
+>     *   Leads various FOSS initiatives by the community.
 >     *   Event Organizer : Help organize meet-ups and developer conferences.
 >     *   Web Developer : Helps maintain the official website.
 >     *   Graphics Designer : Makes graphics assets for the community.
 
 > *   **Pehia Summit 2020**:
->     *   Design Lead : Led a team of designers to produce varoious assets for the summit.
+>     *   Design Lead : Led a team of designers to produce various design assets for the summit.
+>     *   Created various posters, branding materials and other graphics for the events.
+>     *   Collaborated directly with the organizations Directors to communicate their vision for the event through the design.
 
 ## Contact
 
