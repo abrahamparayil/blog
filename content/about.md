@@ -11,7 +11,7 @@ Free/Libre Software Enthusiast. Privacy Advocate. Open Design Advocate. An advoc
 
 ## Skills
 
-Product Designer (UI/UX), Unix Systems Administration, Micro-controller based Design, Web Development, Vector Graphics Designing, Digital Marketing, Event Management.
+Product Design (UI/UX), Unix Systems Administration, Micro-controller based Design, Web Development, Vector Graphics Designing, Digital Marketing, Event Management.
 
 ## Education
 
