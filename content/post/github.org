@@ -4,14 +4,15 @@
 #+HUGO_HEADER : slug: github
 
 This blog might trigger some people. But somebody out there needs to hear
-it, so here it is. Why don't projects like the linux kernel and GNU/Emacs use
-GitHub for development? Isn't it more convenient that whatever they're using?
-Around 2018 I stopped using GitHub for software development for the same reasons
-those people are not ready to move to GitHub. Since then I've been using GitLab
-primarily. But ever since registration forms of various hackathons and
-conferences stopped asking for a link to a place where my projects are hosted
-and instead started asking for a GitHub username I started to mirror my repos
-from GitLab to GitHub. So I don't necessarily use GitHub for development but I
+it, so here it is.
+
+- /Why don't projects like the linux kernel and GNU/Emacs use GitHub for development?/
+- /Isn't it more convenient than whatever they're using?/
+
+Since 2018 I've been using GitLab primarily. But ever since registration forms
+of hackathons and conferences stopped asking for a link to a place where my projects
+are hosted and instead started asking for a GitHub username I started to mirror my
+repos from GitLab to GitHub. So I don't necessarily use GitHub for development but I
 still use it as a mirror for my repos in GitLab.
 
 In this post I will try to explain why I moved away from GitHub and why the
@@ -41,11 +42,11 @@ people in the typical Torvalds way [[https://github.com/torvalds/linux/pull/17#i
 GitHub does not let their users self host the platform. The safest place for
 your data is your own hands if anyone dearly holds on to your data for no
 apparent reason (especially when it's a free service) you shouldn't trust them.
-      But the fact that GitHub is owned by Open Source's greatest ally and privacy
+That being said, the fact that GitHub is owned by Open Source's greatest ally and privacy
 champion Microsoft is somewhat a relief.
 #+begin_quote
 GitHub was so bad for free software, all along, that I could imagine
-Microsoft's making it less bad, or making it more bad. We should ff
+Microsoft's making it less bad, or making it more bad.  We should
 judge by what actually happens, not by prejudice.
 
 Keep in mind that Apple is much worse than Microsoft.
@@ -53,16 +54,16 @@ Keep in mind that Apple is much worse than Microsoft.
 #+end_quote
 *** I didn't want to be part of the network effect.
 I didn't want to be part of the problem. GitHub's becoming more and more of
-monopoly. "Get on GitHub because everyone else is already there" is pretty much
+a monopoly. "Get on GitHub because everyone else is already there" is pretty much
 the slogan out there right now. People haven't yet realized how harmful
 monopolies are and by the time they do, it will be too late. I also didn't like
 the whole trend of filling the green boxes. Hackathon and conference organizers
 has also started selecting participants based on the number of contributions. I
 find this to be a bad trend that will prove to be harmful to the tech community
-      in the long run.
+in the long run.
 ** What else is there?
 *** Many drop in replacements.
-GitLab Community edition is a popular choice among various free software
+GitLab Community edition is a popular choice among free software
 projects. It's got everything GitHub has and more. Then there's Gitea which is
 more lightweight and clean. There's more and they're not that hard to find
 either so I'm not gonna spend a lot of time here.
@@ -97,12 +98,13 @@ So how is this better?
 ** Conclusion
 The major reason why people use GitHub seems to be because it is becoming more
 and more a kind of social media platform like Facebook where the likes, comments,
-shares etc. are replaced by stars, green boxes, forks etc. I don't think that is
+shares etc. are replaced by stars, green boxes, number of forks etc. I don't think that is
 particularly healthy. For the reasons in the first sections of this page and since
 (as the second section suggests) there are many alternatives that does pretty
 much the exact same thing GitHub does, it isn't that compelling to choose GitHub
-over others if you don't care about the social media aspect of GitHub. People
-like Linus and the developers of Emacs definitely don't care about bragging
+over others if you don't care about the social media aspect of GitHub. Moreover large
+projects like the kernel and Emacs already have systems in place for QA, Tests, secuirity etc.
+which they'd have to move over to GitHub. Why would they break something that works just fine? Moreover people like Linus and the developers of Emacs definitely don't care about bragging
 about their green boxes or the number of stars their project has to their peers
 so it only makes sense that they don't see the value in GitHub. People need to
-understand this and in my opinion maybe adopt the same attitude as them.
+understand this and in my opinion welcome diversity.
