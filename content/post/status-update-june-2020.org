@@ -45,6 +45,8 @@ the eminent migration you will have to make in the near future or just play
 around with all the new stuff. I use Debian Testing as my daily driver and
 honestly kind off hate the freeze but it is necessary for the greater good.
 
+That's it for this month. Until next time!
+
 [fn:1] In case you are one of those people who is reading this and wondering how
 I was working full time while being a college student, well most of the credit
 goes to the pandemic because not only did it take my Dad's job away but it also
