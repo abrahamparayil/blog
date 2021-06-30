@@ -1,0 +1,59 @@
+#+TITLE: Status Update: June 2020
+#+DATE: 2021-06-29T20:24:15+05:30
+#+TAGS[]: status-update 2020
+#+DRAFT: false
+
+I've decieded to do status updates. 
+
+June has been a fun month for me so far.
+A large chunk of my time this month has been behind the FOSS club at our
+college. I and a few other friends of mine were the ones who kept it going and
+around 2020 everyone just had a lot to deal with both personally and with
+regards to everything that was happening. I had started freelancing and then
+went on to work full time [fn:1]. This lead to a lack of any activity for over a
+year. But now I was passing out and I kinda didn't want the club to end with me.
+So I gathered a few kindred spirits and decieded to conduct a few events for the
+new batches to give them a feel for what a FOSS club is suppose to be.
+
+As of 2021, most clubs and student organizations in our colleges are subsidiaries
+of and provided for by other larger organizations and for profit companies
+outside the college that tries to benefit from such nodes in colleges. *FOSS
+clubs are not like that and they shouldn't be.* *They exist purely out of love
+for freedom, knowledge and sharing (and in turn humanity).*[fn:2] This is the reason
+why I like FOSS clubs and volunteered my time for the one at our college.
+
+Apart from that I spent some time comming up with a minimal Emacs configuration
+that gives emacs all the necessary feaures one would expect from a modern IDE
+but at the same time remaining true what Emacs is. This was a very enlightening
+experience for me. I helped me realize that you really, really didn't need a lot
+to write code comfortably. The said configuration I'm working on is currently
+less than 400 lines of code and is very close to being complete.
+
+This month I really got into the Ruby ecosystem, it's partly for the new job
+I'll be starting next month and partly to help with my work at Debian. I would
+be lying if I told you I am not worried about how much I will be able to contribute to free
+software projects now that I am going to have to go to an office to work next month
+onwards. I guess we will have to see.
+
+Also Debian Bullseye repositories enetered the freeze stage this month. This
+will be the first Debian release to have packages packaged by yours truely.
+About 27 packages in total most of them are libraries that will benefit
+sysadmins and distribution engineers but if you're a ruby developer who uses
+=rbenv= then you will be using a package with my name in it's final changelog.
+You can get Debian Bullseye set up and running on a test server and prepare for
+the eminent migration you will have to make in the near future or just play
+around with all the new stuff. I use Debian Testing as my daily driver and
+honestly kind off hate the freeze but it is necessary for the greater good.
+
+[fn:1] In case you are one of those people who is reading this and wondering how
+I was working full time while being a college student, well most of the credit
+goes to the pandemic because not only did it take my Dad's job away but it also
+led to the colleges going online giving students like me a lot of flexibility in
+terms of how they spent their time. Honestly at that point in time I really did
+need a break from everything too. Universe in it's own way does indeed provide I
+guess.
+
+[fn:2] It certainly helps to have organizations to support the activities you
+do but that shouldn't come with the cost of you having to push their products
+and services in the student community. That kind of to use and to be used isn't
+good for a community.
