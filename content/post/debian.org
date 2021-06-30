@@ -3,21 +3,67 @@
 #+tags[]: debian free-software gnu/linux
 #+draft: false
 
-I currently use Debian GNU/Linux as my daily driver. I would recommend it to anyone who can appreciate the distribution's maturity. Here are a couple of reasons why those of you who are considering a new distribution must take a look at Debian GNU/Linux.
+#+OPTIONS: toc:2
+
+I currently use Debian GNU/Linux as my daily driver. I would recommend it to
+anyone who can appreciate the distribution's maturity. Here are a couple of
+reasons why those of you who are considering a new distribution must take a
+look at Debian GNU/Linux.
 
 ** Transparency
-Everything in Debian is transparent, all forms of official communication are a matter of public record, the amount of unresolved bugs, every step taken by debian as an organization, everything is in the open! I appreciate that from my distribution. There is no room for underhand corporate deals, no unfair treatment behind private mails and everything can be reviewed by the public. More importantly no crazy or weird surprises. You know what they're doing infact you can even let them know what you think as their mailing lists are public and you can sign up to the mailing list and join conversation.
+Everything in Debian is transparent, all forms of official communication are
+a matter of public record, the amount of unresolved bugs, every step taken
+by debian as an organization, everything is in the open! I appreciate that
+from my distribution. There is no room for underhand corporate deals, no
+unfair treatment behind private mails and everything can be reviewed by the
+public. More importantly no crazy or weird surprises. You know what they're
+doing infact you can even let them know what you think as their mailing
+lists are public and you can sign up to the mailing list and join
+conversation.
 ** Commitment to Free Software
-Debian is one of those distributions that publicly proclaim their commitment to free software. They care about user freedom and privacy, unlike many distributions who would rather just benefit from and talk about the pragmatic advantages of open source. Debian even divides it's packages into three separate repositories: free, non-free and contrib. Free contains only free software, non-free contains proprietary software and contrib has software that requires some non-free software to obtain complete functionality. Debian isn't a FSF approved distribution because it provides a way for users to install non-free software. Debian wants to provide users a chance to have as much a free (as in freedom) computing experience as possible, this is why the none-free archive is maintained. Debian makes it clear that the non-free and contrib archives are not part of the actual distribution.
+Debian is one of those distributions that publicly proclaim their commitment
+to free software. They care about user freedom and privacy, unlike many
+distributions who would rather just benefit from and talk about the
+pragmatic advantages of open source. Debian even divides it's packages into
+three separate repositories: free, non-free and contrib. Free contains only
+free software, non-free contains proprietary software and contrib has
+software that requires some non-free software to obtain complete
+functionality. Debian isn't a FSF approved distribution because it provides
+a way for users to install non-free software. Debian wants to provide users
+a chance to have as much a free (as in freedom) computing experience as
+possible, this is why the none-free archive is maintained. Debian makes it
+clear that the non-free and contrib archives are not part of the actual
+distribution.
 ** Software Quality
-Packages in debian are thoroughly tested over the period of months leading up to the release of a new version of the distro. Debian tracks bugs and works with upstream to fix them and sometimes patches fixes themselves when the developers refuses to or can't work on a fix to the said bug. Debian developers ensures that every bug reported is fixed before the release of a new version, in fact they don't release a new version if they feel that the overall quality of the packages do not meet their standards. it's a 'release when ready' policy because of which Debian does not have a set date or month to make a new release.
+Packages in debian are thoroughly tested over the period of months leading
+up to the release of a new version of the distro. Debian tracks bugs and
+works with upstream to fix them and sometimes patches fixes themselves when
+the developers refuses to or can't work on a fix to the said bug. Debian
+developers ensures that every bug reported is fixed before the release of a
+new version, in fact they don't release a new version if they feel that the
+overall quality of the packages do not meet their standards. it's a 'release
+when ready' policy because of which Debian does not have a set date or month
+to make a new release.
 ** Great Support
-You can get directly in touch with debian developers through their official mailing lists, irc channels and unofficial chat rooms across various platforms. Instead of waiting around for days for replies or talking to a person who is not qualified to resolve the problems you are facing, in Debian you can directly talk to the developers, who are known for their fast replies.
+You can get directly in touch with debian developers through their official
+mailing lists, irc channels and unofficial chat rooms across various
+platforms. Instead of waiting around for days for replies or talking to a
+person who is not qualified to resolve the problems you are facing, in
+Debian you can directly talk to the developers, who are known for their fast
+replies.
 ** Software that doesn't just work but works well together
-Debian ensures that the software they make doesn't just work well on their own but works well with each other. When a library is updated, it is ensured that every other package depending on that library remains functional with the new version of the library before it's uploaded to unstable. This creates a sort of ecosystem where these applications respect other's boundaries and do not affect each other's functioning.
+Debian ensures that the software they make doesn't just work well on their
+own but works well with each other. When a library is updated, it is ensured
+that every other package depending on that library remains functional with
+the new version of the library before it's uploaded to unstable. This creates
+a sort of ecosystem where these applications respect other's boundaries and
+do not affect each other's functioning.
 
-
-Overall in my experience Debian provides a great experience for regular users as well as power users without compromising on stability or polish. It has an open and fair community and stays true to their core values of freedom and justice. That is why I use Debian.
+** Conclusion
+Overall in my experience Debian provides a great experience for regular
+users as well as power users without compromising on stability or polish. It
+has an open and fair community and stays true to their core values of
+freedom and justice. That is why I use Debian.
 
 ** References
 - [[https://www.debian.org/intro/about][About Debian]]
