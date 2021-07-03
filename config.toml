@@ -26,6 +26,7 @@ metaDataFormat= "yaml"
   enabled = true
   enableKatex= false
   headerTitle = "אַבְרָהָם"
+  copyright = "<p>Made with <span style=\"font-size: 20px; color: #e25555;\">♥</span> in GNU Emacs. All original content is licensed under a free/libre <a class= \"link\" href='{{ .Site.Params.main.licenseUrl }}'>copyleft</a> license.</p>"
   img = "img/abraham.jpg"
   icon = "img/man.png"
   quote = "Mea navis aëricumbens anguillis abundat."
