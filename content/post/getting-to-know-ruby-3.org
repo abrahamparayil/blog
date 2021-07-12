@@ -64,7 +64,7 @@ Now if you run that it'll look something like this:
 Enter your Debian version
 9
 You are using Old-Stable. You should consider upgrading.
-#+end_quote
+#+end_src
 Now what if want to check for multiple conditions? 
 #+begin_src ruby
 puts "Enter your Debian version"
