@@ -3,7 +3,7 @@
 
 * Hey 👋
 
-- My name is Abraham Raji. I am known online as =avronr=[fn:1] [fn:2]. 
+- My name is Abraham Raji. I am known online as =avronr=[fn:1]  [fn:2].
 - I write software for a living.
 - I’m a GNU/Linux user, mainly Debian GNU/Linux[fn:3]. I no longer use or need
   Microsoft® Windows® but I have to use macOS at work (but I don’t really like

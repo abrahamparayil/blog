@@ -5,7 +5,9 @@
 Day 2 here we go!
 
 ** Constants
-Constants in ruby begin with a capital or upper case letter. Unlike some programming languages ruby allows users to change constants after declaration except it will give you a warning for it.
+Constants in ruby begin with a capital or upper case letter. Unlike some
+programming languages ruby allows users to change constants after declaration
+except it will give you a warning for it.
 #+begin_src ruby
  irb(main):001:0> Constant = 78.1
 => 78.1
@@ -17,7 +19,8 @@ irb(main):003:0> puts Constant
 54.9
 => nil
 #+end_src
-Here as you can see Ruby gave us a warning when we tried to change the constant 'Constant' but let us change it nonetheless.
+Here as you can see Ruby gave us a warning when we tried to change the constant
+'Constant' but let us change it nonetheless.
 ** File Operations
 In ruby we do file operations using the File object. Consider the following code:
 #+begin_src ruby
@@ -29,7 +32,11 @@ irb(main):003:0> file_writer.close
 => nil
 #+end_src
 
-Here in the first line we're opening a file =hellowworld.org= using the =File= object and ="w"= parameter tells ruby that we want to write to it. Next we use =puts= to put things into the file, here which is =* Hello World=, only after converting it into a string of course using =.to_s=. After we're done writing into the file we close the file using =writer.close=
+Here in the first line we're opening a file =hellowworld.org= using the =File=
+object and ="w"= parameter tells ruby that we want to write to it. Next we use
+=puts= to put things into the file, here which is =* Hello World=, only after
+converting it into a string of course using =.to_s=. After we're done writing
+into the file we close the file using =writer.close=
 
 Now let's read from that file. To do that we can use =File.read=.
 #+begin_src ruby
@@ -37,8 +44,12 @@ irb(main):004:0> file_reader = File.read("helloworld.org")
 => "* Hello World\n"
 #+end_src
 ** Comments
-Commenting in ruby is pretty straight forward and honestly in all the languages I've seen my most favorite yet. Single line comments is done by beginning the line with a =#= which is nothing special, it's milti-line comments that really caught my eye, you begin a multi-line comment with =begin and end it with =end. I don't know something about this feels very natural to me. I like it very much.
- #+begin_src ruby
+Commenting in ruby is pretty straight forward and honestly in all the languages
+I've seen my most favorite yet. Single line comments is done by beginning the
+line with a =#= which is nothing special, it's milti-line comments that really
+caught my eye, you begin a multi-line comment with =begin and end it with =end.
+I don't know something about this feels very natural to me. I like it very much.
+#+begin_src ruby
 # this is a single line comment
 =begin
 this
@@ -48,4 +59,9 @@ comment
 =end
  #+end_src
 
- This have been pretty straight forward up until now. Tomorrow I'll probably get started with conditionals. I still have a lot to cover but I'm getting there. After conditionals I might go to loops, all of them. At some point I will have to look into OOP with Ruby, that is going to be one long post maybe I'll break it into smaller posts. Maybe this might be the last post I make about Ruby. Who knows what the future holds.
+ This have been pretty straight forward up until now. Tomorrow I'll probably get
+ started with conditionals. I still have a lot to cover but I'm getting there.
+ After conditionals I might go to loops, all of them. At some point I will have
+ to look into OOP with Ruby, that is going to be one long post maybe I'll break
+ it into smaller posts. Maybe this might be the last post I make about Ruby. Who
+ knows what the future holds.

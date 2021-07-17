@@ -3,10 +3,15 @@
 #+tags[]: gitlab ci cd
 #+hugo_draft: true
 
-I use Gitlab. This blog is built with and deployed using Gitlab. I like Gitlab. The community edition is Free Software. It really cover the whole development life cycle. Github is catching up but it still has a lot of proprietary bits. I also help package and maintain Gitlab in the Debian archives.
+I use Gitlab. This blog is built with and deployed using Gitlab. I like Gitlab.
+The community edition is Free Software. It really cover the whole development
+life cycle. Github is catching up but it still has a lot of proprietary bits. I
+also help package and maintain Gitlab in the Debian archives.
 
-So Gitlab by default looks into a little file called .gitlab-ci.yml for CI/CD instructions. So let's start slow and test for Debian Stable which is what I use on a daily basis.
-#+begin_src yml
+So Gitlab by default looks into a little file called .gitlab-ci.yml for CI/CD
+instructions. So let's start slow and test for Debian Stable which is what I use
+on a daily basis.
+#+begin_src yaml
 stages:
   - build
   - test
