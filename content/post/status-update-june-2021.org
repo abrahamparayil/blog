@@ -1,6 +1,6 @@
-#+TITLE: Status Update: June 2020
+#+TITLE: Status Update: June 2021
 #+DATE: 2021-06-29T20:24:15+05:30
-#+TAGS[]: status-update 2020
+#+TAGS[]: status-update 2021
 #+DRAFT: false
 
 I've decieded to do status updates. 
