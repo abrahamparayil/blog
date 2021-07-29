@@ -1,0 +1,56 @@
+#+TITLE: Status Update July 2021
+#+DATE: 2021-07-29T15:48:01+05:30
+#+TAGS[]: status-update 2021
+#+DRAFT: false
+
+This month was fun. I officially joined my new company and currently going
+through the technical on-boarding process. So far so good. The Macbook Pro is
+still not something I'd use as my primary machine but it is what it is. I have
+no choice but to use it at work. My laptop's screen was damaged for about a year
+now and I finally repaired it last week. During that time I used my Macbook Pro
+exclusively and it wasn't bad. I sort of found work-arounds to emulate my usual
+workflows and after a few days I got used to it. But then I got my machine back
+and used my window manager again and honestly at that point I knew I never could
+never be satisfied with anything else. I needed a free (as in freedom) operating
+system. I needed it to be hackable. I needed my window managers. It was not just
+a question of productivity but also comfort. I've been spoiled.
+
+Moving on, most of my free time these days was spent around [[https://studevsoc.com][Student
+Developers Society's]] fourth anniversary which happens to be today, 29th July.
+Considering the pandemic everything should obviously be online, otherwise we
+would've organized a meetup but there's not much point in dwelling too much on
+what could've been. We had invited three speakers to talk on the occasion. The
+theme was Entrepreneurship and we invited people we felt were doing something
+different from what is the norm today in terms of running a for profit entity.
+The sessions so were great and we are happy with our choices in terms of
+speakers. Tommorrow we're holding a sort of hacker's meetup that we intend to do
+every month and will be open for the community to join. We're trying to be more
+active now. We were sort of in the process of finding ourselves since our
+founder left us a year ago. I think we're getting there but it is a working
+progress.
+
+We've also been working on getting a minimal blog setup and getting all our
+infrastructure in order. We have a working website already but it's an overkill
+for what we want. We've already decided on moving the blog part to Hugo and
+that's pretty much done. The main website really needs a cleanup. I will either
+rewrite the thing to minimal version of what it is right now or move it to a
+minimal framework such a flask. If you're interested in stuff like this and want
+to volunteer do let me know. We're also looking for a email service provider
+that respects their users' privacy. We also want the service provider to be
+running FOSS systems throughout. Oh and yeah, support for custom domains. It is
+weird that we don't have many options in this regard because email is something
+so basic. Anyways that is a working progress.
+
+Among other things I've been looking again at programming languages. I may have
+found 2 somewhat known yet very interesting languages. Will probably make a post
+both of them once I've played around with them enough. I'm also learning more ruby
+so that's there too.
+
+I am also switching to wayland full time. I wish there was a better selection of
+window managers on wayland but right now [[https://swaywm.org][Sway]] seems to be the only option. I
+miss a lot of things I had with bspwm but the change is inevitable. Wayland is
+the future.
+
+Overall a fun month. I have been taking a break from writting any serious code
+for a while now and I think it's time to get back to it. Hopefully during August
+I will.
