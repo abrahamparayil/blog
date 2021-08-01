@@ -32,7 +32,15 @@ metaDataFormat= "yaml"
   quote = "Mea navis aëricumbens anguillis abundat."
   description= "My name is Abraham Raji. I design and build solutions to problems that fascinate me. I am a maker who believes in sensible and intuitive design both on the outside and under the hood."
   licenseUrl = "https://gitlab.com/avron/avron.gitlab.io/-/raw/master/LICENSE"
- # Social icons
+
+
+  [[params.font]]
+    fontMainName = "Quicksand"
+    fontMainPath = "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    fontMonoName = ""
+    fontMonoPath = ""
+
+# Social icons
   [[params.social]]
     name = "gitlab"
     url  = "https://gitlab.com/avron"
@@ -72,6 +80,7 @@ metaDataFormat= "yaml"
     identifier = "wiki"
     name       = "Wiki"
     url        = "https://wiki.abrahamraji.in"
+
 
 [markup]
   [markup.highlight]
