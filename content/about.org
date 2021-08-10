@@ -25,7 +25,7 @@
 
 - **Mastodon**: [[https://aana.site/@avronr][@avronr]]
 - **Twitter**: [[https://twitter.com/avron_raji][@avron_raji]]
-- **Github**: [[https://gitlab.com/abrahamparayil][@abrahamparayil]]
+- **Github**: [[https://github.com/abrahamparayil][@abrahamparayil]]
 - **GitLab**: [[https://githhub.com/avron][@avron]]
 - **Diaspora**: [[https://poddery.com/people/d69a8ff0103b01375da0002168e35aba][@avronr]]
 
