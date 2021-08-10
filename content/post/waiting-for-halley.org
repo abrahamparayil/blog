@@ -12,7 +12,7 @@ the following:
 - A bullet on the other hand would take 17 years to complete the same journey.
 - It will take the Voyager about 80,000-90,000 years to reach the closest star cluster.
 - A photon would take more than 90,000,000,000 years to travel from one end of the
-  universe to the other.
+  universe to the other. [fn:2]
 
 Now in the age of Jeff Bezoz and Bill Gates a thousand, a million and a billion
 may not seem that far apart. But if you started counting now one second at a time, a
@@ -69,3 +69,13 @@ am an old geezer and more importantly hopefully still surrounded by people I lov
 
 [fn:1] Actually the Observable Universe is about 90 Billion light years wide. It
 is possible that the Universe is much bigger than that.
+
+[fn:2] Even if we travel at the speed of light we probably won't be able reach
+the end of the universe as the universe is ever expanding and by the time we've
+reached the point that we thought was the 'end' of the universe, the universe
+would've expanded and the end will just seem further away. The only possible way
+to accomplish this feat would be to travel at a speed faster than the speed at
+which the universe is expanding which is faster than the speed of light. I am of
+course not going to get into general relativity and space-time simply because
+neither am I qualified for that nor is this some what blog post the right place
+for it.
