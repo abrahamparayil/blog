@@ -26,19 +26,12 @@ metaDataFormat= "yaml"
   enabled = true
   enableKatex= false
   headerTitle = "אַבְרָהָם"
-  copyright = "<p>Made with <span style=\"font-size: 20px; color: #e25555;\">♥</span> in GNU Emacs. All original content is licensed under a free/libre <a class= \"link\" href='{{ .Site.Params.main.licenseUrl }}'>copyleft</a> license.</p>"
+  copyright = "<p>Made with <span style=\"font-size: 20px; color: #e25555;\">♥</span> in <a href=\"https://www.gnu.org/software/emacs/\">GNU Emacs</a>. All original content is licensed under a free/libre <a class= \"link\" href='{{ .Site.Params.main.licenseUrl }}'>copyleft</a> license.</p>"
   img = "img/abraham.jpg"
   icon = "img/man.png"
   quote = "Mea navis aëricumbens anguillis abundat."
-  description= "My name is Abraham Raji. I design and build solutions to problems that fascinate me. I am a maker who believes in sensible and intuitive design both on the outside and under the hood."
+  description= "This website belongs to Abraham Raji who is mostly figuring things out about him and the world around him. He is a minimalist who among other things likes good engineering and coincidently he happens to be an engineer by trade and passion. Other things he likes include good art, good conversations and good food."
   licenseUrl = "https://gitlab.com/avron/avron.gitlab.io/-/raw/master/LICENSE"
-
-
-  [[params.font]]
-    fontMainName = "Quicksand"
-    fontMainPath = "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-    fontMonoName = ""
-    fontMonoPath = ""
 
 # Social icons
   [[params.social]]
