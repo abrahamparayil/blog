@@ -1,0 +1,77 @@
+#+TITLE: Status Update August 2021
+#+DATE: 2021-08-30T03:10:38+05:30
+#+OPTIONS: ^:{}
+#+TAGS[]: status-update 2021
+#+DRAFT: false
+
+Status update August 2021. Let's Go!
+
+* Ruby: A simple language made with humans in mind.
+People who know me know that I like programming languages and operating systems.
+This month I really pulled up my sleeves and got into Ruby. I learned the syntax
+while contributing to ruby packages in Debian and learned more advanced stuff
+this month for work. I played out with a couple of simple algorithms at the
+beginning and then started building simple stuff with it. The language is a far
+departure from C - on of my favorite language of all time. C demands more from
+me as a developer and in return it let's me write some very performant and
+sometimes not so safe programs. It sort of communicates well with the minimalist
+in me and for me at least there is almost never any ambiguity with things when
+it comes to C. It also has a spec which means there are multiple competing
+compilers which creates good competition which is gets everyone better compilers
+year after year. But Ruby on the other hand is not that at all. For instance, when using Ruby
+I feel like the conductor of an orchestra with every single musical instrument
+under the sun ready to go off at flick of my hand. I'm not going to lie, I was one of those people who
+failed to see Ruby for what is was the first time I encountered it. At first
+glance it looks and feels like Python. It was only when I started seriously
+looking into the language that I sort of started seeing the uniqueness of Ruby.
+Ruby is built for humans. Ruby's syntax does not try to be 'clever' or
+pretentious, the language is well thought out and simple taking into
+consideration that it is to be used by a human being while packing some handy
+features that one can use to build some very complex systems. Python is a
+language that people agree to be simple enough that even someone who has never
+been exposed to programming can make some sense of it. Well let me tell you Ruby is
+better than python in that regard and I feel that Ruby would make a great first
+programming language for people who are looking to learn programming. Also
+sometimes when I write code I reach a point where I need to perform a function
+that's so basic that I start to question why the specific functionality wasn't
+part of the language's standard library. While learning Ruby I ported some of my
+old scripts and fun projects I had written in other languages to Ruby. Apart
+from cringing at the code quality of the old code, on multiple occasions I found
+that those functions/methods that I wished were part of the standard libraries
+of the respective languages was already here in Ruby. Quality of life!
+
+It makes sense why it is so easy to make things in Ruby. Ruby is one of the most
+readable programming language out there and the developers of the programming
+language care about adding features and functionalities to the language
+that definitely reduces the number of 'smashed keyboard' and 'hair pulling'
+incidents among developers while using the language. It isn't perfect but it's
+definitely nice. I feel like I might really enjoy my time with Ruby.
+
+* Debian India: Bullseye release, Debconf 2021 and Growing Debian India
+Moving on, Debian Bullseye was released this month! I helped organize Debian
+India's release party during which I gave a technical overview of the new
+release. All of you should give it a go. Yes, even those of you who use
+something like Ubuntu which is built on top of Debian. This month we had Debconf
+2021, it was from the 24^{th} to the 28^{th}. On 25^{th} I was part of a BoF
+about "Growing the Debian Community in India", which was a very interesting
+conversation. Those of us in the Debian India community is currently focusing on
+making Debian India more accessible to the wider developer community. As a part
+of this initiative I started working on the Debian India website recently. Right
+now it is very basic but I hope to be able to add features to it and build and
+maintain other infrastructure that we may need. I do tend to put my hands in a
+lot of pies and get burned out which is something I'm worried about but
+hopefully I won't. If anyone reading this interested in contributing feel free
+to ping me.
+
+* I don't like building things for the sake of building them
+Other than that I've been looking into Rails and React. Both are fun to  be
+honest, at least for now. I followed some tutorials and build the stuff that
+they built in those tutorials but my knowledge honestly feels incomplete. I want
+to try and build something serious to properly use both frameworks but I have no
+idea what.  I mean there are tons of generic projects out there but they don't
+excite me.  For me to write code either it has to be useful or it has to
+exciting. I don't like building stuff for the sake of building stuff. If anyone
+here has any suggestions regarding that feel free to know let me know.
+
+
+And that's it for now. See ya next month.
