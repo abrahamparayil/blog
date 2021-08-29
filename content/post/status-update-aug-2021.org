@@ -2,7 +2,6 @@
 #+DATE: 2021-08-30T03:10:38+05:30
 #+OPTIONS: ^:{}
 #+TAGS[]: status-update 2021
-#+DRAFT: false
 
 Status update August 2021. Let's Go!
 
